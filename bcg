@@ -1,0 +1,19 @@
+#BIT Numerical Mathematics 2016 Ji[158]
+#A: Matrix A n x n
+#B: Matrix B n x s
+#X0: Initial guess n x s
+#M: preconditioner n x n
+#tol: tolerance Real Number
+#maxit: maximum number of iterations Real Number (obviously Z not R?????? how can you have non integer iterations????)
+#Returns: an approximate solution Xsol n x s
+
+"""
+# OriginalBCG
+
+### *From BIT Numerical Mathematics 2016 Ji[158]*
+
+
+"""
+function  OriginalBCG(A,B,X0)
+  @print("hi")
+end
